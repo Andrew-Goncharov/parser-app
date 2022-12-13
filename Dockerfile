@@ -16,6 +16,6 @@ RUN python3 -m database.create_db
 
 RUN bash edit_db.sh
 
-EXPOSE 9000
+EXPOSE 80
 
 ENTRYPOINT ["python3", "-m", "app.main"]
